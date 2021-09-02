@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS CLUB</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url("photo-1534438327276-14e5300c3a48.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .left {
+       /* border: 2px solid blueviolet;*/
+        display: inline-block;
+        position: absolute;
+        left: 52px;
+        top: 35px;
+
+    }
+
+    .center {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+       /* border: 2px solid blueviolet;*/
+
+    }
+
+    .right {
+       /* border: 2px solid blueviolet;*/
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 41px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 25px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(252, 246, 246);
+    }
+
+    .left img {
+        width: 55px;
+    }
+
+    .left div {
+        text-align: center;
+        color: black;
+        line-height: 10px;
+        font-size: 22px;
+        font-family: 'Baloo Bhaina 2', cursive;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaina 2', cursive;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(177, 157, 157);
+    }
+
+    .contanier {
+        
+        margin: 30px 80px;
+        padding: 70px;
+        width: 50%;
+        display: block;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        text-align: center;
+        width:344px;
+        padding:2px;
+        border:2px solid black;
+        margin: 3px auto;
+        font-size: 17px;
+        border-radius:8px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .contanier button{
+        display: block;
+        width: 15%;
+        margin: 8px;
+        margin-left: 130px;
+        font-family: cursive;
+       
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym-6560289__340.png" alt="">
+            <div>FCG</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Meter</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+
+    <div class="contanier">
+        <h1>Join best gym of Delhi now </h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="    enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="    enter your Locality">
+            </div>
+            <button class="btns">Sumit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
